@@ -7,7 +7,7 @@
     <meta name="keywords" content="Contact Our Professionals today!">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>About</title>
+    <title>Aim Logistics</title>
     <link rel="stylesheet" href="css/style.css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- <script class="u-script" type="text/javascript" src="https://static.nicepage.com/shared/assets/jquery-1.9.1.min.js" defer=""></script> -->
@@ -1641,18 +1641,18 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "",
-		"url": "https://website432337.nicepage.io/About.html",
+		"url": "index.html",
 		"logo": "images/logo.jpg"
 }</script>
     <meta name="theme-color" content="#b0d38e">
     <meta property="og:title" content="About">
     <meta property="og:type" content="website">
-    <link rel="canonical" href="https://website432337.nicepage.io/About.html">
+    <link rel="canonical" href="index.html">
   
 </head>
   <body class="u-body">
 <header class="u-clearfix u-header u-header" id="sec-7cec"><div class="u-clearfix u-sheet d-flex u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1">
+        <a href="index.html" class="u-image u-logo u-image-1">
           <img src="images/logo.jpg" class="u-logo-image u-logo-image-1">
         </a>
         <div class="call-us">
@@ -1710,7 +1710,7 @@
 tactical transportation & warehousing services.
             </p>
           
-          <a href="https://nicepage.com/k/adult-html-templates" class="u-active-black u-border-3 u-border-active-black u-border-hover-black u-border-palette-3-base u-btn u-button-style u-hover-black u-none u-text-active-palette-3-base u-text-black u-text-hover-white u-btn-2">Download our Profile</a>
+          <a onclick="openPdf()" class="u-active-black u-border-3 u-border-active-black u-border-hover-black u-border-palette-3-base u-btn u-button-style u-hover-black u-none u-text-active-palette-3-base u-text-black u-text-hover-white u-btn-2">Download our Profile</a>
         </div>
       </div>
     </section>
@@ -1757,7 +1757,7 @@ tactical transportation & warehousing services.
               <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-image u-image-default u-image-1" src="images/road-cargo-3.jpg" data-image-width="626" data-image-height="417">
               <h3 class="u-custom-font u-font-oswald u-text u-text-3" style="color:#fff">Road Transportation</h3>
               <p class="u-text u-text-4" style="color:#fff">Aim Logistics offers efficient ground transportation by way of road.</p>
-              <a href="https://nicepage.com/c/art-design-website-templates" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3"style="color:#2c3740">learn more</a>
+              <a data-toggle="modal" data-target="#roadTransportationModal" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3"style="color:#2c3740">learn more</a>
             </div>
           </div>
           <div class="u-container-style u-list-item u-palette-3-base u-repeater-item u-list-item-2">
@@ -1766,7 +1766,7 @@ tactical transportation & warehousing services.
               <h3 class="u-custom-font u-font-oswald u-text u-text-5" style="color:#fff">Custom Clearance</h3>
               <p class="u-text u-text-6" style="color:#fff">Aim Logistics has been providing professional
                 Customs Clearance Services</p>
-                <a href="https://nicepage.com/c/art-design-website-templates" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3">learn more</a>
+                <a data-toggle="modal" data-target="#customClearanceModal" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3">learn more</a>
             </div>
           </div>
         </div>
@@ -1820,7 +1820,7 @@ tactical transportation & warehousing services.
               <h3 class="u-custom-font u-font-oswald u-text u-text-3" style="color:#fff">Ocean Transportation</h3>
               <p class="u-text u-text-4" style="color:#fff">Sea freight is still the most important form of transport to dispatch large volumes from one
                 continent to another.</p>
-              <a href="https://nicepage.com/c/art-design-website-templates" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3"style="color:#2c3740">learn more</a>
+              <a data-toggle="modal" data-target="#oceanTransportationModal" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3"style="color:#2c3740">learn more</a>
             </div>
           </div>
           <div class="u-container-style u-list-item u-palette-3-base u-repeater-item u-list-item-2">
@@ -1829,7 +1829,7 @@ tactical transportation & warehousing services.
               <h3 class="u-custom-font u-font-oswald u-text u-text-5" style="color:#fff">Air Transportation</h3>
               <p class="u-text u-text-6" style="color:#fff">With our worldwide network we load every air cargo
                 shipment in a safe, fast and smooth manner</p>
-                <a href="https://nicepage.com/c/art-design-website-templates" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3">learn more</a>
+                <a data-toggle="modal" data-target="#airTransportationModal" class="u-border-1 u-border-hover-palette-3-base u-border-white u-btn u-btn-rectangle u-button-style u-none u-text-hover-white u-text-palette-3-base u-btn-3">learn more</a>
             </div>
           </div>
         </div>
@@ -1955,6 +1955,123 @@ tactical transportation & warehousing services.
       </div>
     </section>
     
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="roadTransportationModal" tabindex="-1" role="dialog" aria-labelledby="roadTransportationModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="roadTransportationModalLabel">Road Transportation</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p style="margin: 0;">
+              Aim Logistics offers efficient ground transportation by way of road. This forms an integral aspect of our concept of door-to-door delivery. Over the years we have built up strong relationships with trucking companies in the remotest parts of the country. We leverage such relationships to ensure that we offer our customers with the safest and the fastest transportation of their cargo at the best possible rates.<br>
+              Our worldwide agents have similar contacts with reliable local ground transportation companies which enable us to provide our customers with professional ground transportation services all over the world.
+            </p>
+            <div style="margin: 10px 0px;">
+              <b>Our integrated ground logistics solutions include:</b>
+              <ul style="margin: 0;">
+                <li>Inland transportation by Road</li>
+                <li>Loading of the cargo in the safest possible manner at the point of pick-up</li>
+                <li>Unloading of the cargo at the point of destination for further transportation or final delivery as the case may be</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" id="customClearanceModal" tabindex="-1" role="dialog" aria-labelledby="customClearanceModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="customClearanceModalLabel">Custom Clearance</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p style="margin: 0;">
+              Aim Logistics has been providing professional Customs Clearance Services, thereby making it one of the most experienced players in the Indian market. At the back of our cordial relations, we are confident of assuring you speedy export and import clearances and quick release of consignments in case of imports or the relevant Bills of Lading in case of exports.
+            </p>
+            <div style="margin: 10px 0px;">
+              <b>Our integrated ground logistics solutions include:</b>
+              <ul style="margin: 0;">
+                <li>Documentation for Customs Clearance</li>
+                <li>Carting of the goods</li>
+                <li>Examination of the Shipment</li>
+                <li>Customs Clearance of the import cargo at the port of entry</li>
+                <li>Handling of the cargo at the port</li>
+                <li>Arranging for a Bonded Warehouse as and when required by the customer</li>
+                <li>Cargo stuffing & de-stuffing at Ports, ICDs and Customers’ warehouse</li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" id="oceanTransportationModal" tabindex="-1" role="dialog" aria-labelledby="oceanTransportationModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="oceanTransportationModalLabel">Ocean Transportation</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <ul style="margin: 0px;">
+                <li>FCL Shipments</li>
+                <li>LCL Shipments</li>
+                <li>Dangerous Goods Transportation</li>
+                <li>Special Equipment</li>
+              </ul>
+            </div>
+            <p style="margin: 10px 0px;">
+              Sea freight is still the most important form of transport to dispatch large volumes from one continent to another. Optimal and scheduled sea transports require a specific knowledge and experience, which Aim Logistics takes into account already during planning and preparation of the offer.
+            </p>
+            <p style="margin: 10px 0px;">
+              The dispatch of your sensitive sea cargo is in the hand of our skilled and experienced sea freight experts.
+            </p>
+            <p style="margin: 0px;">
+              Due to the ever increasing freight volumes we have very far-reaching and close personal ties to most of the renowned ocean carriers. Therefore, Aim Logistics is able to effect individual price arrangements ("named accounts") and guaranteed cargo areas for you. Such savings are also a direct financial benefit for our customers
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" id="airTransportationModal" tabindex="-1" role="dialog" aria-labelledby="airTransportationModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="airTransportationModalLabel">Air Transportation</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+            <p style="margin: 10px 0px;">
+              With our worldwide network we load every air cargo shipment in a safe, fast and smooth manner. A profound local and trans-regional expert knowledge of our employees and partners facilitate a professional transport procedure. A profound knowledge of the country-specific import and export regulation avoids unnecessary delays in delivery.
+            </p>
+            <p style="margin: 10px 0px;">
+              Our large allotments of cargo areas to the major traffic pathways in this world guarantee a punctual shipment of your delivery even in the high season.
+            </p>
+            <p style="margin: 10px 0px;">
+              We guarantee an optimal processing of your import and export deliveries by means of highly qualified air freight workers employed with Aim Logistics.
+            </p>
+            <p style="margin: 0px;">
+              Aim Logistics is your experienced air freight partner to meet your requirements and to connect you with your global customers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     
 <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-5bb8"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">copyright 2021. All Rights Reserved by AIM Logistics.</p>
@@ -1965,6 +2082,10 @@ tactical transportation & warehousing services.
       $('.carousel').carousel({
         interval: 2000
       })
+
+      function openPdf(){
+        window.open('Aim_Profile.pdf');
+      }
     </script>
   </body>
 </html>
